@@ -1,0 +1,5 @@
+.idea/
+node_modules/
+renovate.json
+.whitesource
+.yarnrc.yml
