@@ -1,1 +1,1 @@
-declare
+declare module '*.pmg';
