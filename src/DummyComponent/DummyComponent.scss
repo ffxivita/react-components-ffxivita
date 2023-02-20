@@ -1,0 +1,8 @@
+// Generated with util/create-component.js
+@import "../vars";
+@import "../typography";
+
+.foo-bar {
+  @include font-defaults;
+  color: $xivita-blue;
+}
