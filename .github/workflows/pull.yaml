@@ -20,7 +20,7 @@ jobs:
           node-version: '16.17.x'
           registry-url: 'https://registry.npmjs.org'
 
-      - uses: actions/cache@2b250bc32ad02700b996b496c14ac8c2840a2991 # v2
+      - uses: actions/cache@8492260343ad570701412c2f464a5877dc76bace # v2
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-modules-${{ hashFiles('**/package-lock.json') }}
